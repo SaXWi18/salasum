@@ -1,0 +1,225 @@
+.contact{
+    background-color: rgb(44, 43, 43);
+    height: 50vh;
+    margin-top: -40px;
+}
+
+.ContactName{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.ContactCon{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+}
+
+.AddressMain{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+li{
+    list-style: none;
+    color: white;
+}
+
+.Adress{
+    padding-left: 5%;
+}
+
+.ConctactItems{
+    display: flex;
+}
+
+.ContactNo{
+    padding-left: 380px;
+}
+
+.Email{
+    padding-left: 380px;
+}
+
+@media screen and (max-width:1500px){
+    .ContactName{
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+    
+    .ContactCon{
+        font-size: 25px;
+        text-align: center;
+        padding-top: 35px;
+        color: white;
+    }
+    
+    .AddressMain{
+        color: white;
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+    
+    li{
+        list-style: none;
+        color: white;
+    }
+    
+    .Adress{
+        padding-left: 5%;
+    }
+    
+    .ConctactItems{
+        display: flex;
+    }
+    
+    .ContactNo{
+        padding-left: 350px;
+    }
+    
+    .Email{
+        padding-left: 350px;
+    }
+}
+
+@media screen and (max-width:1300px){
+    .ContactCon{
+        font-size: 30px;
+        text-align: center;
+        padding-top: 40px;
+        color: white;       
+    }
+
+    .Email{
+        padding-left: 200px;
+    }
+
+    .ContactNo{
+        padding-left: 200px;
+    }
+}
+
+@media screen and (max-width:1060px){
+    .contact{
+        height: 40vh;
+    }
+    .ContactCon{
+        font-size: 20px;
+        text-align: center;
+        padding-top: 40px;
+        color: white;
+    }
+
+    .AddressMain{
+        color: white;
+        font-size: 13.5px;
+        padding-bottom: 5px;
+    }
+
+    .ContactName{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    ul{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:900px){
+
+    .ContactCon{
+        font-size: 18px;
+    }
+
+    .ContactName{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .Adress{
+        padding-left: 4%;
+    }
+
+    .ContactNo{
+        padding-left: 100px;
+    }
+
+    .Email{
+        padding-left: 100px;
+    }
+}
+
+@media screen and (max-width:724px){
+    .ContactCon{
+        font-size: 18px;
+    }
+
+    .ContactName{
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .Adress{
+        padding-left: 3%;
+    }
+
+    .ContactNo{
+        padding-left: 50px;
+    }
+
+    .Email{
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width:615px){
+
+    .contact{
+        width: 100%;
+        height: 65vh;
+        
+    }
+
+    .ContactName{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    
+    .ConctactItems{
+        display:contents;
+    }
+    
+
+    .Adress{
+        padding-bottom: 15px;
+    }
+
+    .ContactNo{
+        padding-bottom: 15px;
+    }
+
+    .Adress,.ContactNo,.Email{
+        padding-left: 175px;
+    }
+    
+}
+
+@media screen and (max-width:460px){
+    .Adress,.ContactNo,.Email{
+        padding-left: 145px;
+    }
+}
+
+@media screen and (max-width:420px){
+    .Adress,.ContactNo,.Email{
+        padding-left: 125px;
+    }
+}
+
+@media screen and (max-width:360px){
+    .Adress,.ContactNo,.Email{
+        padding-left: 75px;
+    }
+}

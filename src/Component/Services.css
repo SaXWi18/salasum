@@ -1,0 +1,184 @@
+.Services{
+    display: flex;
+}
+
+.ImageS{
+    width: 600px;
+    height: 500px;
+    box-shadow: -10px 10px 15px rgb(100, 106, 110);
+}
+
+.ImageClassForServ{
+   margin: 140px;
+   justify-items: right;
+   
+}
+
+.ServArea{
+    margin-top: 200px;
+    position: absolute;
+    border: none;
+    margin-right: 850px;
+    margin-left: 40px;
+}
+
+.ServMain{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.ServDet{
+    text-align: center;
+}
+
+@media screen and (max-width:1232px){
+    .Services{
+        height: 100vh;
+    }
+
+    .ImageS{
+        width: 550px;
+        height: 450px;
+        box-shadow: 10px 10px 15px rgb(100, 106, 110);
+    }
+
+    .ServMain{
+        font-size: 30px;
+    }
+
+    .ServDet{
+        font-size: 15.5px;
+    }
+
+    .ServArea{
+        margin-top: 140px;
+    }
+}
+
+@media screen and (max-width:1139px){
+    
+    .services{
+        width: 100%;
+        height: 90vh;
+        margin-top: -200px;
+        margin-bottom: -200px;
+    }
+
+    .ImageS{
+        width: 450px;
+        height: 350px;
+        box-shadow: -10px 10px 15px rgb(100, 106, 110);
+    }
+
+    .ImageClassForServ{
+        
+        margin: 120px;
+     }
+
+    .ServMain{
+        font-size: 25px;
+    }
+
+    .ServDet{
+        font-size: 13.5px;
+    }
+
+    .ServArea{
+        margin-left: 70px;
+        margin-top: 90px;
+        margin-right: 650px;
+    }
+
+    
+}
+
+@media screen and (max-width:1030px){
+    
+    .Services{
+        width: 100%;
+        height: 80vh;
+        padding-bottom: -250px;
+    }
+
+    .ImageS{
+        width: 350px;
+        height: 250px;
+        box-shadow: -10px 10px 15px rgb(100, 106, 110);
+    }
+
+    .ImageClassForServ{
+    
+        margin: 80px;
+     }
+
+    .ServMain{
+        font-size: 20px;
+    }
+
+    .ServDet{
+        font-size: 13px;
+    }
+
+    .ServArea{
+        margin-left: 60px;
+        margin-top: 60px;
+        margin-right: 500px;
+    }
+}
+
+@media screen and (max-width:890px){
+    
+    .services{
+        width: 100%;
+        height: 80vh;
+        position: relative;
+        display: contents;
+    }
+
+    .ImageS{
+        width: 100%;
+        height: 80vh;
+        box-shadow: none;
+        margin-left: 0px;
+    }
+
+    .ImageClassForServ{
+        width: 100%;
+        margin: 0px;
+     }
+
+     .ImageClassForServ,.ImageS{
+        display: block;
+     }
+
+     .ServArea{
+        position: absolute;
+        top: 1350px;
+        left: 0px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+        border: none;
+        margin-top: 75px;
+        margin-left: 75px;
+        margin-right: 50px;
+        background-color: aliceblue;
+        background: transparent;
+        -webkit-backdrop-filter: blur(8px);
+        backdrop-filter: blur(8px);
+     }
+
+     .ServMain{
+        font-size: 22px;
+     }
+
+     .ServDet{
+        text-align: center;
+        font-size: 13px;
+     }
+
+     .ServMain,.ServDet{
+        color: white;
+     }
+}

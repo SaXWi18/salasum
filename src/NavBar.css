@@ -1,0 +1,193 @@
+.flex{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 12.5%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background:transparent;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.active{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 12.5%;
+    background-color: rgb(0, 8, 6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    /*background:transparent;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);*/
+}
+
+.Name{
+    font-weight: bold;
+    font-size: 25px;
+    font-variant: small-caps;
+    color: rgb(249, 246, 246);
+}
+
+.NavItems a{
+    position: relative;
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.IconButton{
+    border: none;
+    background:transparent;
+    color: white;
+    display: none;
+}
+
+.NavItems a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(19, 8, 8);
+    transition: .3s;
+}
+
+.active a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    transition: .3s;
+}
+
+.NavItems a:hover::before{
+    width: 100%;
+    
+}
+
+.X{
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    display: none;
+}
+
+@media screen and (max-width:890px) {
+    .flex,.active{
+        padding: 25px 8%;
+    }
+
+    .NavItems a{
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .NavItems a{
+        display: none;
+    }
+
+    .IconButton{
+        display: inline;
+        font-size: 20px;
+    }
+
+    .ResNav{
+        position:fixed ;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        -webkit-backdrop-filter: blur(13px);
+        backdrop-filter: blur(13px);
+        transition: 1s;
+        transform: translateY(1px);
+        .Name{
+            position: absolute;
+            top: 25px;
+        }
+
+        .IconButton{
+            display: none;
+            
+        }
+
+        .NavItems a{
+            display: block;
+            left: 160px;
+            font-size: 20px;
+            text-align: center;
+            margin-bottom: 17px;
+            
+        }
+
+        .NavItems a:hover::before{
+            left: 10px;
+            width: 80%;
+            
+        }
+
+        .X{
+            display: inline;
+            position: absolute;
+            top: 29px;
+            right: 44px;
+        }
+    }
+
+    
+}
+
+@media screen and (max-width:550px) {
+    .NavItems a{
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width:490px) {
+    .flex,.active{
+        padding: 25px 8.5%;
+    }
+
+    .NavItems a{
+        margin-left: -25px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .flex,.active{
+        padding: 25px 10.5%;
+    }
+
+    .NavItems a{
+        margin-left: -45px;
+    }
+
+}
+
+@media screen and (max-width:370px) {
+    .flex,.active{
+        padding: 25px 12.5%;
+    }
+
+    .NavItems a{
+        margin-left: -85px;
+    }
+
+}

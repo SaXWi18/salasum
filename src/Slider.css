@@ -1,0 +1,161 @@
+.Image1{
+    height: 100vh;
+    width: 100%;
+}
+
+.Des{
+    position:absolute;
+    top: 35vh;
+    left: 200px;
+    justify-items: center;
+    border: none;
+    height: 20vh;
+    width: 150vh;
+    
+}
+
+.DesMain{
+    display: flex;
+}
+
+h3{
+    font-size: 40px;
+    color: white;
+}
+
+.MainText{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 80px;
+    font-weight: bolder;
+    color: white;
+    font-variant: small-caps;
+}
+
+.DesH{
+    padding-top: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+@media screen and (max-width:1232px) {
+    .Des{
+        left: 130px;
+        width: 120vh;
+    }
+
+    h3{
+        font-size: 30px;
+    }
+
+    .MainText{
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .Des{
+        width: 100vh;
+        left:90px
+    }
+
+    h3{
+        font-size: 25px;
+    }
+
+    .MainText{
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .Des{
+        top: 40vh;
+        width: 80vh;
+        left: 70px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    .MainText{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:730px) {
+
+    .Des{
+        height: 40vh;
+        width: 60vh;
+        top: 30vh;
+        left: 125px;
+    }
+
+    .MainText{
+        display: block;
+        font-size: 45px;
+    }
+
+    .DesMain{
+        text-align: center;
+        margin-left: -10px;
+    }
+
+    .DesH{
+        text-align: center;
+        font-size: 14px;
+    }
+
+    h3{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .Des{
+        height: 40vh;
+        width: 45vh;
+        left: 100px;
+    }
+
+    .MainText{
+        font-size: 40px;
+    }
+
+    .DesH{
+        font-size: 13px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:490px) {
+    .Des{
+        height: 40vh;
+        width: 35vh;
+        left: 45px;
+    }
+
+    .DesMain{
+        text-align: left;
+    }
+
+    .DesH{
+        text-align: left;
+        font-size: 10.5px;
+        margin-top: 20px;
+    }
+
+    h3{
+        font-size: 17px;
+    }
+
+    .MainText{
+        font-size: 42px;
+    }
+}
